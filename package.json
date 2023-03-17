@@ -1,0 +1,16 @@
+{
+  "name": "server-telemeapp",
+  "version": "1.0.0",
+  "description": "servidor com socket.io para o telemeapp",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.14",
+    "socket.io": "^2.4.1"
+  }
+}
